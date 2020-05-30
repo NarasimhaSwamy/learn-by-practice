@@ -8,7 +8,7 @@ Approach here will be different, all concepts will be discussed and debated in c
 
 #### File Validation
 
-Write code to validate file.  
+Write code to validate a file.  
 
    * Validate size of the file, ex: 5 MB.
    * Validate extension of the file. ex : `pdf`, `doc`, `txt`.
