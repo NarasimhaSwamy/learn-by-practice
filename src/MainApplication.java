@@ -8,8 +8,8 @@ public class MainApplication {
         System.out.println("Input file path");
         String fileName = sc.nextLine();
 
-        boolean checkFileValidity = FileValidation.isValidFile(fileName);
-        if(checkFileValidity) {
+        boolean fileValidity = FileValidation.isValidFile(fileName);
+        if(fileValidity) {
             System.out.println("Valid File");
         }
         else {
