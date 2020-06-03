@@ -13,5 +13,18 @@ Write code to validate a file.
    * Validate size of the file, ex: 5 MB.
    * Validate extension of the file. ex : `pdf`, `doc`, `txt`.
 
+#### Code Review take aways
+
+Discussed on
+
+   * variable/function naming
+   * Java 8 Predicates
+
+Unanswered Questions : 
+
+   * Does Java do any optimizations for code written in Java 8?
+ 
+
+
 
 
