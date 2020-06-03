@@ -15,6 +15,8 @@ Write code to validate a file.
 
 #### Code Review take aways
 
+[Youtube url](https://youtu.be/D42ODz1BPWw)
+
 Discussed on
 
    * variable/function naming
