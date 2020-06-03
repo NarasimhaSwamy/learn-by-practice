@@ -24,6 +24,10 @@ Unanswered Questions :
 
    * Does Java do any optimizations for code written in Java 8?
  
+### Week 2 - 06/06/2020
+
+Validate all files in a provided folder and send respective digest emails
+for both successful and unsuccessful validations.
 
 
 
