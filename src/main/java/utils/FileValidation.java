@@ -1,4 +1,4 @@
-package validations;
+package utils;
 import java.io.File;
 
 public class FileValidation {
@@ -36,8 +36,7 @@ public class FileValidation {
         return false;
     }
 
-    public static boolean isValidFile(String filename) {
-        File file = new File(filename);
+    public static boolean isValidFile(File file) {
         if(isFileExists(file) && isValidSize(file) && isValidExtension(file)) {
             return true;
         }
