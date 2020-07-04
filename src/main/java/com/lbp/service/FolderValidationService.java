@@ -1,9 +1,9 @@
-package service;
+package com.lbp.service;
 
 import java.io.File;
 
-import model.ValidInvalidFiles;
-import utils.FileValidation;
+import com.lbp.model.ValidInvalidFiles;
+import com.lbp.utils.FileValidation;
 
 public class FolderValidationService {
     public static ValidInvalidFiles validateFolder(File folder) {

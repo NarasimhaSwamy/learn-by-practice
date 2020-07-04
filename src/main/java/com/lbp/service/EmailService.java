@@ -1,9 +1,9 @@
-package service;
+package com.lbp.service;
 
 import java.util.ArrayList;
 
-import model.ValidInvalidFiles;
-import model.Email;
+import com.lbp.model.ValidInvalidFiles;
+import com.lbp.model.Email;
 
 import java.util.Properties;
 import javax.mail.Message;

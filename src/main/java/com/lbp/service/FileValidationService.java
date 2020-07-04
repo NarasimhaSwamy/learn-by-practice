@@ -1,4 +1,7 @@
-import utils.FileValidation;
+package com.lbp.service;
+
+import com.lbp.utils.FileValidation;
+
 import java.util.Scanner;
 import java.io.File;
 

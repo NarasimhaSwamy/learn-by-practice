@@ -1,11 +1,12 @@
-import utils.FileValidation;
+package com.lbp;
+
+import com.lbp.model.ValidInvalidFiles;
+import com.lbp.service.EmailService;
+import com.lbp.service.FolderValidationService;
+
 import java.util.Scanner;
 
-import model.ValidInvalidFiles;
-
 import java.io.File;
-import service.FolderValidationService;
-import service.EmailService;
 
 public class MainApplication {
     public static void main(String[] args) {

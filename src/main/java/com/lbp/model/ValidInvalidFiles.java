@@ -1,4 +1,4 @@
-package model;
+package com.lbp.model;
 
 import java.util.ArrayList;
 

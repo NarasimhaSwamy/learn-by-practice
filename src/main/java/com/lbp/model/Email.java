@@ -1,4 +1,4 @@
-package model;
+package com.lbp.model;
 
 public class Email {
     public String subject;
