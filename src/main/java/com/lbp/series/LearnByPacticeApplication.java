@@ -20,6 +20,11 @@ public class LearnByPacticeApplication {
 
         boolean truthValue =
                 FILE_EXISTENCE_PREDICATE.and(FILE_EXTENSION_PREDICATE).and(MAX_FILE_SIZE_PREDICATE).test(fAttributes);
+        if(truthValue) {
+            System.out.println("Files are valid")
+        } else {
+            System.out.println("Not valid");
+        }
 
     }
 }
