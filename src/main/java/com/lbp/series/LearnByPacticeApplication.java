@@ -1,6 +1,9 @@
 package com.lbp.series;
 
+import com.lbp.series.model.Email;
 import com.lbp.series.model.FileAttributes;
+import com.lbp.series.service.EmailService;
+import com.lbp.series.service.impl.EmailServiceImpl;
 import com.lbp.series.validation.FileValidation;
 
 import java.io.File;
@@ -21,10 +24,30 @@ public class LearnByPacticeApplication {
         boolean truthValue =
                 FILE_EXISTENCE_PREDICATE.and(FILE_EXTENSION_PREDICATE).and(MAX_FILE_SIZE_PREDICATE).test(fAttributes);
         if(truthValue) {
-            System.out.println("Files are valid")
+            System.out.println("Files are valid");
         } else {
             System.out.println("Not valid");
         }
+
+
+        // Opening doors for mutating the email content
+//        Email email = new Email();
+//        email.setBody("body");
+//        email.setFrom("from");
+//        email.setSubject("subject");
+//        email.setTo("to");
+//        email.setHeaders(null);
+
+//        Email emailWithAllConst = new Email("to", "from", "body", "subject", null);
+
+        // Builder Pattern
+        Email.EmailBuilder builder = new Email.EmailBuilder();
+        Email email =  builder.addFrom("from").addTo("to").addHeaders(null).build();
+//        EmailService emailService =
+
+
+        EmailService emailService = new EmailServiceImpl();
+        emailService.send(email);
 
     }
 }
